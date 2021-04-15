@@ -22,6 +22,7 @@ export default {
 
   methods: {
     onClick() {
+      this.$router.push({ name: 'pomodoro', type: 'hola' });
       console.log('El boton ha clickeado');
     },
   },

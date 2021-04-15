@@ -8,7 +8,7 @@ const routes = [
     component: Welcome,
   },
   {
-    path: '/pomodoro/:type',
+    path: '/pomodoro',
     name: 'pomodoro',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
