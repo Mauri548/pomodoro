@@ -8,12 +8,12 @@ const routes = [
     component: Welcome,
   },
   {
-    path: '/pomodoro',
+    path: '/pomodoro/:type',
     name: 'pomodoro',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "pomodoro" */ '../views/Pomodoro.vue'),
+    component: () => import(/* webpackChunkName: "pomodoro" */ '../views/pomodoro/Pomodoro.vue'),
   },
 ];
 
